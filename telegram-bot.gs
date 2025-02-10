@@ -69,8 +69,8 @@ function onFormSubmit(e) {
 
 // **Fungsi untuk mengirim pesan teks ke Telegram**
 function sendTelegramNotification(message) {
-  var token = "7615420836:AAEx6xUphHEEY68XxNCmJbLl8QzB6c7nugg"; // Ganti dengan TOKEN BOT kamu
-  var chatId = "@laportelematika"; // Ganti dengan Chat ID grup
+  var token = "Token"; // Ganti dengan TOKEN BOT kamu
+  var chatId = "@id"; // Ganti dengan Chat ID grup
 
   var payload = {
     "chat_id": chatId,
@@ -90,8 +90,8 @@ function sendTelegramNotification(message) {
 
 // **Fungsi untuk mengirim foto langsung ke Telegram**
 function sendTelegramPhoto(photoUrl, caption) {
-  var token = "7615420836:AAEx6xUphHEEY68XxNCmJbLl8QzB6c7nugg"; 
-  var chatId = "@laportelematika"; // Ganti dengan Chat ID grup
+  var token = "Token"; 
+  var chatId = "@id"; // Ganti dengan Chat ID grup
 
   var payload = {
     "chat_id": chatId,
